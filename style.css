@@ -17,6 +17,7 @@ body {
 }
 
 .nav {
+  display: block;
   height: 96px;
   width: 93vw;
   margin: auto;
@@ -1328,10 +1329,12 @@ body {
   .b-img {
     height: 100%;
     width: 45px;
+    display: flex;
+    align-items: center;
   }
   .nav2-img {
-    width: 100%;
-    height: 100%;
+    width: fit-content;
+    height: 82%;
   }
   .nav-r {
     display: flex;
@@ -2171,4 +2174,43 @@ body {
   .main10-subcont1-v2 {
     display: block;
   }
+     /* lets chat */
+
+      .lets-chat{
+        display: none;
+      }
+      .letschat-2{
+        height: 132px;
+        width: 60px;
+        position: fixed;
+        right: 30px;
+        bottom: 35px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+      }
+      .lets-2-div1{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background-color: #0176d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+      }
+      .fa-phone{
+        color: #fff;
+        font-size: 26px;
+        font-weight: 300;
+        
+
+      }
+      .fa-message{
+        color: #fff;
+        font-size: 26px;
+        font-weight: 300;
+      }
 }
