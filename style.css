@@ -1268,6 +1268,12 @@ body {
   width: fit-content;
   margin-right: 25px;
 }
+.letschat-2{
+  display: none;
+}
+
+
+
 
 @media only screen and (min-width: 1680px) {
   .section-1 {
