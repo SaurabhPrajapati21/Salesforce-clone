@@ -2188,6 +2188,8 @@ body {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        z-index: 5;
+
 
       }
       .lets-2-div1{
@@ -2198,6 +2200,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        
 
 
       }
